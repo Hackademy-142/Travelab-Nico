@@ -37,23 +37,48 @@ body {
 }
 
 .bg-acc {
-  background-color: var(--acc-color);
+  background-color: var(--acc-color) !important;
 }
 
 /* border */
-
-/* .borde-1 {
-  border: 1px solid var(--det-color);
+.borde-1 {
+  border-bottom: 4px solid var(--det-color) !important;
 }
 
 .borde-2 {
-  border: 1px solid var(--sec-color);
+  border-bottom: 4px solid var(--sec-color) !important;
 }
 
 .borde-acc {
-  border: 1px solid var(--acc-color);
-} */
+  border-bottom: 4px solid var(--acc-color) !important;
+}
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.design-underline {
+  position: relative;
+}
+
+.design-underline::after {
+  position: absolute;
+  content: '';
+  bottom: -10%;
+  left: 0%;
+  width: 30%;
+  height: 10%;
+  background-color: var(--sec-color);
+}
+
+.destinazione-sticky {
+  position: sticky;
+  top: 150px;
+}
+
+.bg-image {
+  background-image: url(./assets/mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
