@@ -53,3 +53,7 @@ body {
 .borde-acc {
   border: 1px solid var(--acc-color);
 } */
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
