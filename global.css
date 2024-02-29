@@ -1,0 +1,55 @@
+body {
+  font-family: "Bitter", serif;
+}
+
+.font-dosis {
+  font-family: "Dosis", sans-serif !important;
+}
+
+/* definisco le variabili css dove conservo il valore Hex del colore */
+:root {
+  --det-color: #053328;
+  --sec-color: #1A3535;
+  --acc-color: #593959;
+}
+
+/* testo */
+.tx-1 {
+  color: var(--det-color);
+}
+
+.tx-2 {
+  color: var(--sec-color);
+} 
+
+.tx-acc {
+  color: var(--acc-color);
+} 
+
+/* bgc */
+
+.bg-1 {
+  background-color: var(--det-color);
+}
+
+.bg-2 {
+  background-color: var(--sec-color);
+}
+
+.bg-acc {
+  background-color: var(--acc-color);
+}
+
+/* border */
+
+/* .borde-1 {
+  border: 1px solid var(--det-color);
+}
+
+.borde-2 {
+  border: 1px solid var(--sec-color);
+}
+
+.borde-acc {
+  border: 1px solid var(--acc-color);
+} */
